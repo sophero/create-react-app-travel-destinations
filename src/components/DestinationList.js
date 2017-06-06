@@ -24,6 +24,8 @@ class DestinationList extends Component {
             this.setState({
                 destinations: response.data
             });
+        }).catch(function(error) {
+            console.log(error);
         });
     }
 
@@ -33,6 +35,8 @@ class DestinationList extends Component {
             this.setState({
                 destinations: response.data
             });
+        }).catch(function(error) {
+            console.log(error);
         });
     }
 
