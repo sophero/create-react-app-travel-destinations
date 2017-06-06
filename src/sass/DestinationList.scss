@@ -1,0 +1,13 @@
+.destination-list {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.destination-list-item {
+    width: 90%;
+    margin: 20px 10px;
+    text-align: center;
+}
